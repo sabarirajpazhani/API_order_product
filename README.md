@@ -118,3 +118,10 @@ npm start
 
 When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:
 
+## 1. Thunder Client
+
+**Thunder Client** is a lightweight REST API client extension for Visual Studio Code. It provides a clean and user-friendly interface for sending HTTP requests and analyzing responses.
+
+- **Installation**: Available as a Visual Studio Code extension.
+- **Website**: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
