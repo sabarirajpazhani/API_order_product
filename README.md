@@ -88,6 +88,10 @@ Before you begin, ensure you have the following installed on your machine:
 ```bash
 git clone https://github.com/sabarirajpazhani/API_order_product.git
 ```
-
+### 2. Install Dependencies:
+```bash
+cd your-repo-name
+npm install
+```
 
 
