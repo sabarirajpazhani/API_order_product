@@ -99,11 +99,17 @@ npm install
 npm start
 ```
 
-### API Testing Visuals
+## API Testing Visuals
 
 ### 1. Get Products
 
 ![image](https://github.com/user-attachments/assets/d7f11a99-0d60-42e6-980d-0baf8fc50df3)
+
+### 2. Get Single Products
+
+![image](https://github.com/user-attachments/assets/e190a582-04f7-4d02-b87c-3989948266c6)
+
+
 
 
 # API Testing Tools
