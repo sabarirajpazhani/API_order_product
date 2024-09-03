@@ -49,5 +49,15 @@ exports.getSingleProduct = async (req, res, next) => {
 
 **Endpoint:** `POST /api/orders`
 
+**Description:** Creates a new order with the provided cart items. It calculates the total amount and sets the order status to "pending."
+
+```javascript
+const cartItems = req.body;
+const amount = Number(cartItems.reduce((acc, item) => (acc + item.product.price * item.qty), 0)).toFixed(2);
+const status = 'pending';
+
+const order = await orderModel.create({ cartItems, amount, status });
+```
+
 
 
