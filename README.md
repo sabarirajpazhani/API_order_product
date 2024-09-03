@@ -8,3 +8,14 @@
 
 ### 1. Get All Products
 **Endpoint:** `GET /api/products`
+
+Retrieves all products stored in the MongoDB database.
+
+```javascript
+exports.getProducts = async (req, res, next) => {
+    const products = await ProductModel.find({});
+    res.json({
+        success: true,
+        products
+    });
+};
