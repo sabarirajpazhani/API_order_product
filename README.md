@@ -99,6 +99,13 @@ npm install
 npm start
 ```
 
+### API Testing Visuals
+
+### 1. Get Products
+
+![image](https://github.com/user-attachments/assets/d7f11a99-0d60-42e6-980d-0baf8fc50df3)
+
+
 # API Testing Tools
 
 When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:
