@@ -72,4 +72,13 @@ cartItems.forEach(async (item) => {
 });
 ```
 
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+
+
+
 
