@@ -81,6 +81,7 @@ Before you begin, ensure you have the following installed on your machine:
 - **Node.js:** [Download and Install Node.js](https://nodejs.org/)
 - **MongoDB:** Make sure MongoDB is running on localhost. You can [download MongoDB](https://www.mongodb.com/try/download/community) and follow the installation instructions.
 
+## Installation
 
-
+### 1. Clone the Repository:
 
