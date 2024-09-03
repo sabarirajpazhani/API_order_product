@@ -59,9 +59,17 @@ const status = 'pending';
 const order = await orderModel.create({ cartItems, amount, status });
 ```
 
-### Update Product Stock
+### 4. Update Product Stock
 
 **Description:** After an order is placed, the stock of the ordered products is updated accordingly.
 
+```javascript
+cartItems.forEach(async (item) => {
+    const product = await productModel.findById(item.product._id);
+    console.log(product);
+    product.stock = product.stock - item.qty;
+    await product.save();
+});
+```
 
 
