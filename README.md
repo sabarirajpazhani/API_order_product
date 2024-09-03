@@ -19,3 +19,8 @@ exports.getProducts = async (req, res, next) => {
         products
     });
 };
+```
+
+### 2. Get Single Product
+
+**Endpoint:** `GET /api/products/:id`
