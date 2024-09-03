@@ -45,3 +45,9 @@ exports.getSingleProduct = async (req, res, next) => {
 };
 ```
 
+### 3. Create Order
+
+**Endpoint:** `POST /api/orders`
+
+
+
