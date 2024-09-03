@@ -90,8 +90,7 @@ git clone https://github.com/sabarirajpazhani/API_order_product.git
 ```
 ### 2. Install Dependencies:
 ```bash
-cd your-repo-name
-npm install
+cd backend
 ```
 
 ### 3. Start the Server:
