@@ -94,8 +94,12 @@ cd your-repo-name
 npm install
 ```
 
-### #. Start the Server:
+### 3. Start the Server:
 ```bash
 npm start
 ```
+
+# API Testing Tools
+
+When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:
 
