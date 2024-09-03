@@ -94,4 +94,8 @@ cd your-repo-name
 npm install
 ```
 
+### #. Start the Server:
+```bash
+npm start
+```
 
