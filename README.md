@@ -24,3 +24,24 @@ exports.getProducts = async (req, res, next) => {
 ### 2. Get Single Product
 
 **Endpoint:** `GET /api/products/:id`
+
+**Description:** Retrieves a single product by its ID.
+
+```javascript
+exports.getSingleProduct = async (req, res, next) => {
+    console.log(req.params.id, 'ID');
+    try {
+        const product = await ProductModel.findById(req.params.id);
+        res.json({
+            success: true,
+            product
+        });
+    } catch (error) {
+        res.status(404).json({
+            success: false,
+            message: "Unable to get Product with the ID"
+        });
+    }
+};
+```
+
